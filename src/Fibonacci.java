@@ -4,6 +4,7 @@ public class Fibonacci {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value of N: ");
         int N = scanner.nextInt();
+
         System.out.println("Fibonacci Series up to " + N + " terms:");
         for (int i = 0; i < N; i++) {
             System.out.print(fibonacci(i) + " ");
